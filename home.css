@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&display=swap');
 
-
-
-
-
-
- 
-    
-
-
 @keyframes fadeInZoom {
     0% {
         opacity: 0;
@@ -32,7 +23,6 @@ body{
     opacity: 0;
 }
 .navbar {
-    background-color: #032f7c;
     animation: fadeInZoom 1.5s ease-in-out forwards; 
     opacity: 0;
 }
@@ -47,14 +37,24 @@ video.playing {
     transform: scale(1.1);
 }
 audio {
-  
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px ; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 audio.playing {
-    transform: scale(1.1); 
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.1)  ; 
+  
 }
 
+
+
+footer {
+    background-color: #2d3748;
+}
+
+footer p, footer a {
+    color: #edf2f7;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
