@@ -27,6 +27,16 @@ body{
     opacity: 0;
 }
 
+.nav-link{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.navbar-brand{
+    color: #ffff;
+}
+
+
 
 video {
     border: 5px solid #007bff;
