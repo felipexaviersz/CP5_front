@@ -85,6 +85,7 @@ audio {
 
 footer {
   margin-top: 5%;
+  
 }
 
 
@@ -97,7 +98,11 @@ footer {
 
 @media screen and (max-width: 768px) {
   video {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
   }
+  .Logo{
+    max-width: 40px;
+  }
+  
 }
