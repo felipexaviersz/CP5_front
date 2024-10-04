@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="home.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <div>
@@ -69,42 +66,44 @@
         </div>
       </nav>
 
-    <h5 class="txt-sobre text-center text-light">
-      Techno Music , o ponto de encontro para os amantes do techno. Nosso
-      objetivo é conectar você aos maiores artistas do gênero, apresentando suas
-      músicas inovadoras e shows eletrizantes. Aqui, mergulhamos nas batidas
-      profundas e na energia pulsante que definem o techno, trazendo a você uma
-      experiência imersiva com efeitos visuais de tirar o fôlego e uma
-      interatividade que coloca você no centro da cena.
-    </h5>
 
-    <div class="grid text-center">
-      <h1 class="text-boma text-light">Boma São Paulo 2024</h1>
-      <video id="meuVideo" style="max-width: 600px; max-height: 400px" controls>
-        <source src="Video/bomaSP.mp4" type="video/mp4" />
-        Seu navegador não suporta vídeo.
-      </video>
+    <div id="form-contato" class="container my-5" style="margin-top: 5%;">
+        <h2 class="text-center mb-4 text-light">Contato</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label text-light">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-light">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="seuemail@dominio.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label text-light">Assunto</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Assunto da mensagem" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-light">Mensagem</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Escreva sua mensagem aqui" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
     </div>
-
-    <h5 class="txt-sobre text-center text-light">
-      Seja você um fã ávido ou alguém que está descobrindo o techno pela
-      primeira vez, estamos aqui para guiar sua jornada sonora. Explore as
-      biografias dos DJs, ouça suas faixas mais impactantes e fique por dentro
-      dos próximos eventos. No Techno Music , a música não é apenas ouvida, é
-      sentida.
-    </h5>
-
- 
 
 
     <footer class="bg-dark text-light text-center py-3">
-        <p class="text-boma">© 2024 Techno Music - Todos os direitos reservados.</p>
+        <p>© 2024 Techno Music - Todos os direitos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     
-    
-  </body>
-  <script src="script.js"></script>
+
+</body>
+
+<script src="script.js"></script>
 </html>

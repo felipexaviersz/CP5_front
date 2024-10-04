@@ -63,6 +63,7 @@ audio.playing {
 
 footer {
     background-color: #2d3748;
+    margin-top: 5%;
 }
 
 footer p, footer a {
