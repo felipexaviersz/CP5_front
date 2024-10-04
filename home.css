@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 @keyframes fadeInZoom {
     0% {
@@ -26,7 +27,9 @@ body{
     animation: fadeInZoom 1.5s ease-in-out forwards; 
     opacity: 0;
 }
-
+.container-video{
+    padding-top: 5%;
+}
 
 video {
     border: 5px solid #007bff;
@@ -57,4 +60,12 @@ footer p, footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.txt-sobre{
+    padding: 5%;
+    font-family: 'Bungee', cursive;
+}
+.text-boma{
+    font-family: 'Bungee', cursive;
 }
